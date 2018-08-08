@@ -22,3 +22,5 @@ assemblyMergeStrategy in assembly := {
     val oldStrategy = (assemblyMergeStrategy in assembly).value
     oldStrategy(x)
 }
+
+resolvers += "Jms Source" at "https://repository.jboss.org/nexus/content/groups/public"
